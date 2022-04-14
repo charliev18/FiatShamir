@@ -1,6 +1,8 @@
-cmake_minimum_required(VERSION 3.17)
-project(FiatShamir)
+cmake_minimum_required(VERSION 3.2.2)
+project(FiatShamirGlobal)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(FiatShamir main.cpp setup.cpp)
+add_subdirectory(src/prover)
+add_subdirectory(src/verifier)
+add_subdirectory(src)
