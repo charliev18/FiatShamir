@@ -1,0 +1,1 @@
+add_executable(Verifier proof_actions verifier.cpp ../utils.cpp)

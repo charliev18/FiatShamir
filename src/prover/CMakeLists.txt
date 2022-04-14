@@ -1,0 +1,1 @@
+add_executable(Prover proof_actions.cpp prover.cpp setup.cpp ../utils.cpp)
